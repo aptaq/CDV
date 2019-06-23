@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formularz 1</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+
+      <label>Imie<input type="text" name="imie" required></label><br><br>
+      <label>Nazwisko<input type="text" name="nazwisko" required></label><br><br>
+      <label>Email<input type="email" name="email" required></label><br><br>
+
+      Płeć:
+      <label>Kobieta<input type="radio" name="plec" value="k" checked></label>
+      <label>Mężczyzna<input type="radio" name="plec" value="m"></label><br><br>
+
+      <textarea name="wiadomosc" rows="8" cols="50"></textarea><br><br>
+
+      <select name="miasto">
+        <optgroup label="wielkopolska">
+          <option value="">Poznań</option>
+          <option value="">Gniezno</option>
+          <option value="">Luboń</option>
+        </optgroup>
+        <optgroup label="zachodniopomorskie">
+          <option value="">Stargard</option>
+          <option value="">Szczecin</option>
+        </optgroup>
+
+      </select><br><br>
+
+      <input type="reset"value="Clear">
+      <input type="submit" name="przycisk" value="Send">
+    </form>
+  </body>
+</html>

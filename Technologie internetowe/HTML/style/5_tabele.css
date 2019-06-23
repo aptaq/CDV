@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    border-radius: 5%;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+td{
+  background-color: yellow;
+  color: red;
+}
+.col{
+  background-color: green;
+  color: #FFF;
+}
+#tabela1{
+  color: black;
+  background-color: gray;
+}
+.polaczone{
+  background-color: #FFF;
+}
+.polaczone1{
+  background-color: yellow;
+}
